@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="cf1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFECD2"/>
+      <stop offset="100%" stop-color="#FCB69F"/>
+    </radialGradient>
+  </defs>
+  <path d="M 0 100 Q 35 98 62 100" stroke="#FCB69F" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 138 100 Q 165 102 200 100" stroke="#FCB69F" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="100" cy="100" r="38" fill="url(#cf1)" stroke="#F5A08A" stroke-width="2"/>
+  <!-- Cute star face -->
+  <g transform="translate(100,100)">
+    <!-- Eyes -->
+    <circle cx="-10" cy="-5" r="4" fill="#5C3A21"/>
+    <circle cx="10" cy="-5" r="4" fill="#5C3A21"/>
+    <circle cx="-8" cy="-6" r="1.5" fill="white"/>
+    <circle cx="12" cy="-6" r="1.5" fill="white"/>
+    <!-- Smile -->
+    <path d="M -8 6 Q 0 14 8 6" stroke="#5C3A21" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Blush -->
+    <ellipse cx="-18" cy="5" rx="5" ry="3" fill="#FF9999" opacity="0.5"/>
+    <ellipse cx="18" cy="5" rx="5" ry="3" fill="#FF9999" opacity="0.5"/>
+  </g>
+  <!-- Mini hearts -->
+  <text x="72" y="74" font-size="12" fill="#FF6B95">♥</text>
+  <text x="122" y="78" font-size="10" fill="#FF6B95">♥</text>
+  <text x="80" y="132" font-size="9" fill="#FF6B95">♥</text>
+</svg>

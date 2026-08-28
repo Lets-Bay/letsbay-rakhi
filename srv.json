@@ -1,0 +1,14 @@
+[
+  {
+    "NameTarget": "ac-qh1h6xo-shard-00-01.tc9jidu.mongodb.net",
+    "Port": 27017
+  },
+  {
+    "NameTarget": "ac-qh1h6xo-shard-00-02.tc9jidu.mongodb.net",
+    "Port": 27017
+  },
+  {
+    "NameTarget": "ac-qh1h6xo-shard-00-00.tc9jidu.mongodb.net",
+    "Port": 27017
+  }
+]

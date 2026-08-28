@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="fl1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE0EC"/>
+      <stop offset="100%" stop-color="#F5A0B8"/>
+    </radialGradient>
+  </defs>
+  <path d="M 0 100 Q 40 96 65 100" stroke="#E87AAF" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 135 100 Q 160 104 200 100" stroke="#E87AAF" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="100" cy="100" r="35" fill="url(#fl1)" stroke="#D4A574" stroke-width="1.5"/>
+  <!-- Flowers -->
+  <g transform="translate(100,68)">
+    <circle cx="0" cy="0" r="5" fill="#FF6B95"/>
+    <circle cx="-5" cy="-5" r="4" fill="#FF8FB0"/>
+    <circle cx="5" cy="-5" r="4" fill="#FF8FB0"/>
+    <circle cx="-5" cy="5" r="4" fill="#FF8FB0"/>
+    <circle cx="5" cy="5" r="4" fill="#FF8FB0"/>
+  </g>
+  <g transform="translate(130,95)">
+    <circle cx="0" cy="0" r="5" fill="#FF6B95"/>
+    <circle cx="-5" cy="-4" r="3.5" fill="#FF8FB0"/>
+    <circle cx="5" cy="-4" r="3.5" fill="#FF8FB0"/>
+    <circle cx="-5" cy="4" r="3.5" fill="#FF8FB0"/>
+    <circle cx="5" cy="4" r="3.5" fill="#FF8FB0"/>
+  </g>
+  <g transform="translate(75,125)">
+    <circle cx="0" cy="0" r="4" fill="#FFB347"/>
+    <circle cx="-4" cy="-4" r="3" fill="#FFCC66"/>
+    <circle cx="4" cy="-4" r="3" fill="#FFCC66"/>
+    <circle cx="-4" cy="4" r="3" fill="#FFCC66"/>
+    <circle cx="4" cy="4" r="3" fill="#FFCC66"/>
+  </g>
+  <!-- Leaves -->
+  <ellipse cx="85" cy="85" rx="3" ry="8" fill="#7CB342" transform="rotate(-30 85 85)"/>
+  <ellipse cx="118" cy="112" rx="3" ry="7" fill="#7CB342" transform="rotate(40 118 112)"/>
+  <circle cx="100" cy="100" r="10" fill="#FFD700" stroke="#D4A574" stroke-width="2"/>
+</svg>

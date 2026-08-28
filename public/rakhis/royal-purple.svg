@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="rp1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8D0FF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </radialGradient>
+  </defs>
+  <path d="M 0 100 Q 35 93 65 100" stroke="#8B5CF6" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 135 100 Q 165 107 200 100" stroke="#8B5CF6" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="100" cy="100" r="38" fill="url(#rp1)" stroke="#D4A574" stroke-width="2"/>
+  <!-- Royal pattern -->
+  <g transform="translate(100,100)" fill="none" stroke="#6D28D9" stroke-width="1.2">
+    <path d="M 0 -32 L 8 -14 L 30 -10 L 14 6 L 18 28 L 0 18 L -18 28 L -14 6 L -30 -10 L -8 -14 Z"/>
+    <path d="M 0 -22 L 5 -10 L 20 -7 L 9 4 L 12 19 L 0 12 L -12 19 L -9 4 L -20 -7 L -5 -10 Z"/>
+  </g>
+  <!-- Gold accents -->
+  <circle cx="100" cy="68" r="3" fill="#FFD700"/>
+  <circle cx="132" cy="100" r="3" fill="#FFD700"/>
+  <circle cx="100" cy="132" r="3" fill="#FFD700"/>
+  <circle cx="68" cy="100" r="3" fill="#FFD700"/>
+  <circle cx="100" cy="100" r="12" fill="#8B5CF6" stroke="#FFD700" stroke-width="3"/>
+  <circle cx="100" cy="100" r="5" fill="#FFD700"/>
+</svg>

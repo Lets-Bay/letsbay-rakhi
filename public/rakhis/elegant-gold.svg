@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE4A0"/>
+      <stop offset="100%" stop-color="#D4A574"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+  </defs>
+  <path d="M 0 100 Q 40 92 70 100" stroke="#D4A574" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 130 100 Q 160 108 200 100" stroke="#D4A574" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="100" cy="100" r="38" fill="url(#g1)" stroke="#B8860B" stroke-width="1.5"/>
+  <!-- Filigree pattern -->
+  <g transform="translate(100,100)" stroke="#B8860B" stroke-width="1" fill="none">
+    <circle r="30" stroke-dasharray="4 6"/>
+    <circle r="22"/>
+    <path d="M -15 0 Q 0 -20 15 0 Q 0 20 -15 0" stroke-width="1.5"/>
+    <path d="M 0 -15 Q -20 0 0 15 Q 20 0 0 -15" stroke-width="1.5"/>
+  </g>
+  <circle cx="100" cy="100" r="10" fill="url(#g2)" stroke="#8B7355" stroke-width="2"/>
+  <circle cx="100" cy="100" r="4" fill="#FFF8DC" opacity="0.8"/>
+</svg>
